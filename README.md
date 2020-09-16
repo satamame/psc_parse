@@ -1,12 +1,22 @@
-# psc_parse
+# psc-parse
 
 ## 依存するパッケージ
 
 - pyknp==0.4.1
+- scikit-learn
 
 ## 必要な外部アプリケーション
 
 - JUMAN++ 2.0.0-rc3
+
+## インストール
+
+```
+> pip install git+https://github.com/satamame/psc_parse#egg=psc-parse
+```
+
+pipenv の場合もコマンド以外は同様です。  
+Windows の場合は、「ワールドワイド言語サポートで Unicode UTF-8 を使用」を ON にしてください。
 
 ## モジュール
 
@@ -26,7 +36,7 @@
 
 # 特徴量設計
 
-特徴量ファイルにはヘッダはなく、以下の順に数値が格納されている。
+特徴量ファイルにはヘッダはなく、以下の順に数値が格納されている。  
 パターンについては、`mrph_match` モジュールの `RPH_MTCH_PTN` を参照。
 
 1. 0001
