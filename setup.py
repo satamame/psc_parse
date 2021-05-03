@@ -10,7 +10,8 @@ setuptools.setup(
     long_description="Train/use tree model to parse play script",
     long_description_content_type="text/markdown",
     url="https://github.com/satamame/psc_parse",
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages("src"),
+    package_dir={"": "src"},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
