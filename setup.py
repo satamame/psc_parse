@@ -3,7 +3,7 @@ import setuptools
 setuptools.setup(
     name="psc-parse",
     version="0.1",
-    install_requires=['pyknp<=0.4.1', 'scikit-learn'],
+    install_requires=['pyknp==0.4.1', 'scikit-learn==0.23.2'],
     author="satamame",
     author_email="satax@nifty.com",
     description="Train/use tree model to parse play script",

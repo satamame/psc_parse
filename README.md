@@ -3,7 +3,7 @@
 ## 依存するパッケージ
 
 - pyknp==0.4.1
-- scikit-learn
+- scikit-learn==0.23.2
 
 ## 必要な外部アプリケーション
 
