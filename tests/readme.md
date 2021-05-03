@@ -10,17 +10,16 @@
 例
 ```python
 JUMAN_COMMAND = 'jumanpp_v2'
-JUMAN_OPTION = '--config=C:\ProgramData\jumanpp\model\jumandic.conf'
+JUMAN_OPTION = r'--config=C:\ProgramData\jumanpp\model\jumandic.conf'
 ```
 
 ## テスト実行の流れ
 
-1. 必要なら、`pyknp` がインストールされている仮想環境に入る。
-1. `psc_parse` ディレクトリに移動する。
+1. `pyknp` がインストールされている仮想環境に入る。
     ```
-    > cd path/to/psc_parse
+    > .venv/Scripts/activate
     ```
 1. `unittest` を実行する (以下は全テストを実行する場合)。
     ```
-    > python -m unittest -v
+    (.venv) > python -m unittest -v
     ```

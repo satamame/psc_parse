@@ -7,7 +7,7 @@ from enum import Enum
 class PscClass(Enum):
     '''台本の行の種類
     '''
-    
+
     TITLE = 0                   # 題名
     AUTHOR = 1                  # 著者名
     CHARSHEADLINE = 2           # 登場人物見出し
